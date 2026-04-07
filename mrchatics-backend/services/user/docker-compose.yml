@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  user-profile-service:
+    build: .
+    ports:
+      - "8083:8083"
+    environment:
+      - GO111MODULE=on
+    restart: unless-stopped

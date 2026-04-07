@@ -1,0 +1,17 @@
+.git
+.gitignore
+README.md
+Makefile
+*.md
+.vscode
+.idea
+*.log
+bin/
+tmp/
+*.tmp
+.env
+.env.local
+.DS_Store
+coverage.txt
+*.test
+*.out
